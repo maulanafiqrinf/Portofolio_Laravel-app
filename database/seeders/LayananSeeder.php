@@ -26,7 +26,7 @@ class LayananSeeder extends Seeder
                 'kd_status' => 'KS1',
             ],
             [
-                'name' => 'Pengembangan Model Machine Learning dan Deep Learning',
+                'name' => 'Pengembangan Model ML dan DL',
                 'deskripsi' => 'Layanan pembuatan model kecerdasan buatan menggunakan Machine Learning dan Deep Learning untuk berbagai kebutuhan.',
                 'icon' => 'ai-development.png',
                 'kd_status' => 'KS1',
