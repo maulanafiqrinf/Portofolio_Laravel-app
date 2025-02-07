@@ -28,7 +28,7 @@ class ProyekSeeder extends Seeder
                 'image3' => '',
                 'link' => '',
                 'start_date' => '2024-11-01',
-                'completion_date' => '2024-11-01',
+                // 'completion_date' => '2024-11-01',
                 'kd_status' => 'KS1',
                 'kd_kategori' => 'KT1',
             ],
