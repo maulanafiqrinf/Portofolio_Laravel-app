@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('layanans', function (Blueprint $table) {
             $table->id();
-            $table->string('name',50)->nullable();
+            $table->string('name',100)->nullable();
             $table->text('deskripsi')->nullable();
             $table->text('icon')->nullable();
             $table->string('kd_status',5);
