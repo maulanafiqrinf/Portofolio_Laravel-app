@@ -21,7 +21,7 @@ class TentangSayaSeeder extends Seeder
                         Saya antusias untuk terus belajar dan berkontribusi dalam menciptakan solusi teknologi yang inovatif.',
             'lokasi' => 'Tuban, Indonesia',
             'hp' => '082143078424',
-            'foto' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2Ffoto.jpg?alt=media&token=263d7878-b2d7-4efc-9f56-0aa99cb7da4c',
+            'foto' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2Ffotome.webp?alt=media&token=c90e6cf7-0d56-45f8-9503-efb8e1b49e6f',
             'cv' => '-',
             'instagram' => 'https://instagram.com/johndoe',
             'linkedln' => 'https://linkedin.com/in/johndoe',
