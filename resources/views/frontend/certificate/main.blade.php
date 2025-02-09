@@ -20,9 +20,9 @@
                                     <li style="font-size: 16px; font-weight:bold">
                                         {{ e($certificate->name) }}</li>
                                     <li style="font-size: 14px;"><i class="fa-regular fa-clock"></i>
-                                        {{ \Carbon\Carbon::parse($certificate->start_date)->format('F Y') }}
+                                        {{ \Carbon\Carbon::parse($certificate->start_date)->translatedFormat('F Y') }}
                                         -
-                                        {{ empty($certificate->completion_date) ? 'Sampai Sekarang' : \Carbon\Carbon::parse($certificate->completion_date)->format('F Y') }}
+                                        {{ empty($certificate->completion_date) ? 'Sampai Sekarang' : \Carbon\Carbon::parse($certificate->completion_date)->translatedFormat('F Y') }}
                                     </li>
                                     <li style="font-size: 12px;"><i class="fa-solid fa-user"></i> {{ $certificate->pihak }}</li>
                                 </ul>

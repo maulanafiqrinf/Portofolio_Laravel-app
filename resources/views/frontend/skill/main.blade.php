@@ -14,7 +14,7 @@
                         @foreach ($hardskill as $skill)
                             <div class="col-lg-2 col-md-3 col-sm-6 col-12 mb-4">
                                 <div class="skill-item wow fadeInUp delay-0-2s text-center">
-                                    <img src="{{ $skill->icon }}" alt="Skill" class="img-fluid" style="max-width: 80px;" />
+                                    <img src="{{ e($skill->icon) }}" alt="Skill" class="img-fluid" style="max-width: 80px;" />
                                     <h5 class="mt-3">{{ e($skill->name) }}</h5>
                                 </div>
                             </div>
