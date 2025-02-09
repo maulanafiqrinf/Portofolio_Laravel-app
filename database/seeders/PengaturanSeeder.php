@@ -14,7 +14,7 @@ class PengaturanSeeder extends Seeder
     {
         $pengaturans = [
             [
-                'image' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2Flogoapp.png?alt=media&token=3dca9e28-fec9-415e-a8fa-8f8a99b2d516',
+                'image' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2Flogoapp.webp?alt=media&token=a341b24c-36d9-4db3-8151-7ffa03f82fa6',
                 'map' => '<iframe src="https://www.google.com/maps/embed?..."></iframe>',
             ],
         ];
