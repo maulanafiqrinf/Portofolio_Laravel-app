@@ -13,9 +13,9 @@
                     @foreach ($services as $service)
                         <div class="col-lg-4 col-md-6">
                             <div class="service-item wow fadeInUp delay-0-2s">
-                                <img src="{!! nl2br(htmlspecialchars(e($service->image))) !!}" alt="service">
-                                <h4>{!! nl2br(htmlspecialchars(e($service->name))) !!}</h4>
-                                <p>{!! nl2br(htmlspecialchars(e($service->deskripsi))) !!}</p>
+                                <img src="{!! nl2br(e($service->image)) !!}" alt="service">
+                                <h4>{!! nl2br(e($service->name)) !!}</h4>
+                                <p>{!! nl2br(e($service->deskripsi)) !!}</p>
                             </div>
                         </div>
                     @endforeach

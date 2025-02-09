@@ -83,13 +83,13 @@
             </div>
         </div>
     </header>
-    @include('frontend.about')
-    @include('frontend.service')
-    @include('frontend.resume')
-    @include('frontend.skill')
-    @include('frontend.portfolio')
-    @include('frontend.certificate')
-    @include('frontend.contact')
+    @include('frontend.about.main')
+    @include('frontend.service.main')
+    @include('frontend.resume.main')
+    @include('frontend.skill.main')
+    @include('frontend.project.main')
+    @include('frontend.certificate.main')
+    {{-- @include('frontend.contact') --}}
 
     <section class="map_area">
         <div class="container">

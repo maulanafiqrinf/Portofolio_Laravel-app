@@ -22,49 +22,46 @@
                             </div>
                             <div class="project-content">
                                 <span class="sub-title">{{ e($project->position) }}</span>
-                                <h3>{!! nl2br(htmlspecialchars(e($project->name))) !!}</h3>
+                                <h3>{!! nl2br(e($project->name)) !!}</h3>
                             </div>
                         </div>
                     </div>
                 @endforeach
             </div>
-
-            <!-- Pagination -->
             <div class="pagination-wrapper text-center mt-4" id="project-pagination-controls"></div>
         </div>
     </div>
 </section>
 
-<!-- Modal: Project Details -->
 @foreach ($proyek as $project)
     <div class="modal fade" id="projectModal-{{ $project->id }}" tabindex="-1"
         aria-labelledby="projectModalLabel-{{ $project->id }}" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="projectModalLabel-{{ $project->id }}">Detail {!! nl2br(htmlspecialchars(e($project->name))) !!}</h5>
+                    <h5 class="modal-title" id="projectModalLabel-{{ $project->id }}">Detail {!! nl2br(e($project->name)) !!}</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 text-center pb-3">
-                                <p>{{ \Carbon\Carbon::parse($project->start_date)->format('F Y') }} - 
-                                    {{ empty($project->completion_date) ? 'Sampai Sekarang' : \Carbon\Carbon::parse($project->completion_date)->format('F Y') }}
+                                <p>{{ \Carbon\Carbon::parse($project->start_date)->translatedFormat('F Y') }} - 
+                                    {{ empty($project->completion_date) ? 'Sampai Sekarang' : \Carbon\Carbon::parse($project->completion_date)->translatedFormat('F Y') }}
                                 </p>
-                                <h1>{!! nl2br(htmlspecialchars(e($project->name))) !!}</h1>
+                                <h1>{!! nl2br(e($project->name)) !!}</h1>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <span style="font-size: 16px; font-weight:bold">Posisi:</span>
-                                <p style="font-size: 14px;">{{ htmlspecialchars($project->position) }}</p>
+                                <p style="font-size: 14px;">{{ e($project->position) }}</p>
                                 <span style="font-size: 16px; font-weight:bold">Teknologi: </span>
-                                <p style="font-size: 14px;">{{ htmlspecialchars($project->technology) }}</p>
+                                <p style="font-size: 14px;">{{ e($project->technology) }}</p>
                             </div>
                             <div class="col-sm-6">
                                 <span style="font-size: 16px; font-weight:bold">Pihak:</span>
-                                <p style="font-size: 14px;">{{ htmlspecialchars($project->pihak) }}</p>
+                                <p style="font-size: 14px;">{{ e($project->pihak) }}</p>
                             </div>
                         </div>
                     </div>
@@ -80,8 +77,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Gallery Images -->
                         <div class="row pt-2">
                             @foreach ([$project->image, $project->image2, $project->image3] as $image)
                                 @if ($image)

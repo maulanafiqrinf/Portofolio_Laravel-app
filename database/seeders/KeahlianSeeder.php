@@ -90,7 +90,7 @@ class KeahlianSeeder extends Seeder
             [
                 'name' => 'Flask',
                 'deskripsi' => '',
-                'icon' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2FLogo%2FFlask.png?alt=media&token=4737045b-c7e3-4aee-a680-30924a8f5f17',
+                'icon' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2FLogo%2Fflask.svg?alt=media&token=e6ff2f6e-877f-40df-acc3-2881e185a705',
                 'kd_status' => 'KS1',
                 'kd_kategori_keahlian' => 'KK2',
             ],
@@ -111,14 +111,14 @@ class KeahlianSeeder extends Seeder
             [
                 'name' => 'Bootstrap',
                 'deskripsi' => '',
-                'icon' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2FLogo%2Fbootstrap.png?alt=media&token=9be42c59-aff4-40f0-9eb0-0dda9b90c7e1',
+                'icon' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2FLogo%2Fbootstrap.svg?alt=media&token=dec49bef-7a4d-4ce6-b34e-a6f7704aac9d',
                 'kd_status' => 'KS1',
                 'kd_kategori_keahlian' => 'KK2',
             ],
             [
                 'name' => 'Git',
                 'deskripsi' => '',
-                'icon' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2FLogo%2FGit.png?alt=media&token=c00147ee-3cdc-4505-bce4-b7779790b726',
+                'icon' => 'https://firebasestorage.googleapis.com/v0/b/project-99ec7.appspot.com/o/Proyek%2FPortofolio%2FLogo%2Fgit.svg?alt=media&token=b93dc8a2-d7f1-4f19-8b98-b0fae3c57a1e',
                 'kd_status' => 'KS1',
                 'kd_kategori_keahlian' => 'KK2',
             ],

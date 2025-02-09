@@ -16,10 +16,10 @@
                                             {{ \Carbon\Carbon::parse($experience->start_date)->format('F Y') }} -
                                             {{ empty($experience->completion_date) ? 'Sampai Sekarang' : \Carbon\Carbon::parse($experience->completion_date)->format('F Y') }}
                                         </span>
-                                        <h4>{!! nl2br(htmlspecialchars(e($experience->name))) !!} - {!! nl2br(htmlspecialchars(e($experience->pihak))) !!}</h4>
-                                        <p class="company" style="font-size: 16px;font-weight:bold">{!! nl2br(htmlspecialchars(e($experience->position))) !!}</p>
+                                        <h4>{!! nl2br(e($experience->name)) !!} - {!! nl2br(e($experience->pihak)) !!}</h4>
+                                        <p class="company" style="font-size: 16px;font-weight:bold">{!! nl2br(e($experience->position)) !!}</p>
                                         <span style="font-size: 14px; font-weight:bold">Deskripsi: </span>
-                                        <p>{!! nl2br(htmlspecialchars(e($experience->deskripsi))) !!}</p>
+                                        <p>{!! nl2br(e($experience->deskripsi)) !!}</p>
                                     </div>
                                 </div>
                             @endforeach
@@ -42,10 +42,10 @@
                                             {{ \Carbon\Carbon::parse($education->start_date)->format('F Y') }} -
                                             {{ empty($education->completion_date) ? 'Sampai Sekarang' : \Carbon\Carbon::parse($education->completion_date)->format('F Y') }}
                                         </span>
-                                        <h4>{!! nl2br(htmlspecialchars(e($education->name))) !!}</h4>
-                                        <p class="company" style="font-size: 16px;font-weight:bold">{!! nl2br(htmlspecialchars(e($education->jurusan))) !!}</p>
+                                        <h4>{!! nl2br(e($education->name)) !!}</h4>
+                                        <p class="company" style="font-size: 16px;font-weight:bold">{!! nl2br(e($education->jurusan)) !!}</p>
                                         <span style="font-size: 14px; font-weight:bold">Deskripsi: </span>
-                                        <p>{!! nl2br(htmlspecialchars(e($education->deskripsi))) !!}</p>
+                                        <p>{!! nl2br(e($education->deskripsi)) !!}</p>
                                     </div>
                                 </div>
                             @endforeach
