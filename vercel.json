@@ -27,9 +27,9 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "om027.h.filess.io",
+        "DB_HOST": "nobz8.h.filess.io",
         "DB_PORT": "3307",
-        "DB_DATABASE": "portofolio_tonetried",
-        "DB_USERNAME": "portofolio_tonetried"
+        "DB_DATABASE": "apps12456_blewquiet",
+        "DB_USERNAME": "apps12456_blewquiet"
     }
 }
