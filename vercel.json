@@ -16,7 +16,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://no/",
-        "APP_KEY": "base64:NpSCAfQoQow1mLnrGAvgKzR426Tj1zco/BX0ND1WsgI=",
+        "APP_KEY": "base64:oPu20AmgrPRaSGO1i+PKw/FGG4JQ/Z9W9GiKyV0vitA=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
@@ -27,9 +27,10 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "nobz8.h.filess.io",
-        "DB_PORT": "3307",
-        "DB_DATABASE": "apps12456_blewquiet",
-        "DB_USERNAME": "apps12456_blewquiet"
-    }
+        "DB_HOST": "pkm-mh.h.filess.io",
+        "DB_PORT": "61002",
+        "DB_DATABASE": "portofolio_paintgungo",
+        "DB_USERNAME": "portofolio_paintgungo",
+        "DB_PASSWORD": "91235ae0c75f924779ba0b5f940fcb5bdd4ce78d"
+        }
 }
